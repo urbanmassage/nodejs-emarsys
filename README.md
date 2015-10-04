@@ -10,3 +10,25 @@ var api = new Emarsys({
 });
 
 ```
+
+#### Example 1: fetch available fields
+```js
+api.getFields(function (err, res, body) {
+  console.log(body);
+});
+```
+
+#### Example 2: get field values for a contact / email 
+(1=Firstname, 2=Lastname, 31=OptIn)
+```js
+var payload = {
+  "keyId": "3",
+  "keyValues": ["some_email@host.com"],
+  "fields": [1, 2, 31]
+};
+api.getContactData(payload, function (err, res, body) {
+  console.log(body.data.result);
+});
+```
+
+...
