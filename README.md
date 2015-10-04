@@ -39,7 +39,7 @@ var payload = {
   "3": "some_email@host.com",
   "1": "Tony",
   "2": "Stark",
-  "18": "Stark Industries" // company
+  "18": "Stark Industries", // company
   "11": "New York City", // city
   "10": "Stark Tower 1, Manhattan Midtown" // address
   ...
