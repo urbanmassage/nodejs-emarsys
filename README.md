@@ -3,7 +3,7 @@ incomplete nodejs module for emarsys api with some basic functionality... feel f
 
 ```js
 // npm install(!)
-var Emarsys = require('./lib/emarsys');
+var Emarsys = require('@um/nodejs-emarsys');
 var api = new Emarsys({
   endpoint: 'YOUR_API_ENDPOINT',
   username: 'YOUR_USERNAME',

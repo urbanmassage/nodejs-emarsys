@@ -5,6 +5,14 @@
   "main": "lib/emarsys.js",
   "author": "ar1hur",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/urbanmassage/nodejs-emarsys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/urbanmassage/nodejs-emarsys/issues"
+  },
+  "homepage": "https://github.com/urbanmassage/nodejs-emarsys",
   "dependencies": {
     "qs": "^5.1.0",
     "request": "^2.64.0"

@@ -1,0 +1,9 @@
+.git
+*.tgz
+test/
+**/*.log
+
+.vscode/
+.gitignore
+node_modules/
+.npmrc
