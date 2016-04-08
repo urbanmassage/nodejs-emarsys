@@ -1,11 +1,8 @@
 {
-  "name": "nodejs-emarsys",
+  "name": "@um/nodejs-emarsys",
   "version": "1.0.0",
   "description": "nodejs based client for emarsys api",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "lib/emarsys.js",
   "author": "ar1hur",
   "license": "MIT",
   "dependencies": {
