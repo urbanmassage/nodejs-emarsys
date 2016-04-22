@@ -1,6 +1,6 @@
 {
   "name": "@um/nodejs-emarsys",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "nodejs based client for emarsys api",
   "main": "lib/emarsys.js",
   "author": "ar1hur",
